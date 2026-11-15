@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Prediction Result{% endblock %}
+{% block content %}
+  <h1>Prediction Result</h1>
+  <div class="tweet-box">
+    <strong>Your Tweet:</strong>
+    <p>{{ tweet }}</p>
+  </div>
+  <p class="verdict {{ sentiment|lower }}"><span class="emoji">{{ emoji }}</span> {{ sentiment }} Sentiment</p>
+  <a class="link" href="{{ url_for('home') }}">Analyze Another Tweet</a>
+{% endblock %}

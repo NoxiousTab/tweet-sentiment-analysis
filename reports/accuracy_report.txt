@@ -1,0 +1,10 @@
+TWEET SENTIMENT ANALYSIS - ACCURACY REPORT
+============================================
+Training tweets          : 24
+Test tweets              : 6
+Accuracy                 : 50.00 %
+Precision (weighted)     : 61.11 %
+Recall (weighted)        : 50.00 %
+F1-Score (weighted)      : 52.22 %
+Avg. processing time     : 0.26 ms / tweet
+First prediction (warm-up): 0.45 ms

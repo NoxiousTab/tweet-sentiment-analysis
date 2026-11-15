@@ -1,0 +1,31 @@
+tweet,sentiment
+"Such a wonderful day, feeling so happy and grateful!",Positive
+"Loved the new update, the app works great #awesome",Positive
+"I love this city, the people and the food are lovely",Positive
+The food at this restaurant was delicious and the staff were so kind,Positive
+"Excited for the weekend trip with my friends, cannot wait!",Positive
+"Fantastic support team, I am so pleased with the quick reply",Positive
+"I enjoyed the lecture today, the professor explained everything clearly",Positive
+"Great job team, we won the hackathon! Proud of everyone",Positive
+"This laptop is brilliant, fast and smooth, highly recommend https://t.co/xyz",Positive
+Feeling happy and relaxed after a lovely evening walk,Positive
+"Worst experience, the delivery was late and the packaging was damaged",Negative
+"I hate waiting in long queues, so frustrating and annoying",Negative
+"This app keeps crashing, very disappointing update",Negative
+"Terrible food and rude staff, never going back there again",Negative
+I am so sad and upset about the exam result,Negative
+"The battery life is awful, complete waste of money",Negative
+"My internet is useless today, nothing works properly @isp_support",Negative
+"Really bad customer care, they ignored my complaint",Negative
+"I don't like this boring movie, total waste of time",Negative
+"Regret this purchase, the product is faulty and I dont have a refund",Negative
+Team meeting is on Monday morning in the conference room,Neutral
+The bus leaves from the main station every hour,Neutral
+Today's weather forecast says cloudy with a chance of rain,Neutral
+The library opens at 9 am and closes at 6 pm,Neutral
+I am reading a book about computer networks,Neutral
+The exam schedule was uploaded on the college website,Neutral
+Train number 1234 departs from platform two,Neutral
+We are having lunch at the canteen today,Neutral
+The class will start after the break,Neutral
+Office hours are from 10 am to 5 pm on weekdays,Neutral

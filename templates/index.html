@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+  <h1>Tweet Sentiment Analysis</h1>
+  <p class="subtitle">Enter a tweet and our AI model will classify it as:</p>
+  <p class="legend">
+    <span>😊 Positive</span>
+    <span>😞 Negative</span>
+    <span>😐 Neutral</span>
+  </p>
+
+  {% if error %}<p class="error" role="alert">{{ error }}</p>{% endif %}
+
+  <form action="{{ url_for('predict') }}" method="POST">
+    <textarea id="tweet" name="tweet" maxlength="{{ max_length }}" required
+              placeholder="Enter your tweet here..." aria-label="Tweet text"></textarea>
+    <p class="counter"><span id="count">0</span> / {{ max_length }} characters</p>
+    <button type="submit">Analyze Sentiment</button>
+  </form>
+  <a class="link" href="{{ url_for('about') }}">About Project</a>
+{% endblock %}
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}

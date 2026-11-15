@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}About Project{% endblock %}
+{% block content %}
+  <h1>About Project</h1>
+  <div class="about">
+    <p><strong>Tweet Sentiment Analysis System</strong> classifies a tweet as Positive, Negative or Neutral.</p>
+    <p><strong>Subject:</strong> 410245A &ndash; Information Retrieval<br>
+       Modern Education Society's Wadia College of Engineering, Pune</p>
+    <p><strong>How it works</strong></p>
+    <ol>
+      <li>The tweet is cleaned: lower-case, URLs, @mentions, #, digits and punctuation removed.</li>
+      <li>It is tokenised with NLTK and stop-words are dropped.</li>
+      <li>TF-IDF turns the remaining words into a numeric vector.</li>
+      <li>A Logistic Regression model predicts the sentiment.</li>
+    </ol>
+  </div>
+  <a class="link" href="{{ url_for('home') }}">Back to Home</a>
+{% endblock %}
