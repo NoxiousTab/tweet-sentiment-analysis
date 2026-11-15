@@ -26,7 +26,7 @@ raw tweet → clean (lowercase, strip URL/@/#/digits/punctuation) → NLTK token
 ## 1. Setup (do this once, before the demo day)
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/NoxiousTab/tweet-sentiment-analysis.git
 cd tweet-sentiment-analysis
 
 python -m venv venv
